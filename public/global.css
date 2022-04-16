@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --navy-blue: #022650;
+  --baby-blue: #b4d8fd;
+  --highlight-blue: #ebf5fe;
+
+  --size-xl: clamp(2rem, 1.7545rem + 1.0909vw, 3.5rem);
+  --size-lg: clamp(1.5rem, 1.3773rem + 0.5455vw, 2.25rem);
+  --size-md: clamp(1.125rem, 1.0636rem + 0.2727vw, 1.5rem);
+  --size-sm: clamp(1rem, 0.9795rem + 0.0909vw, 1.125rem);
+  --size-xs: clamp(0.75rem, 0.7295rem + 0.0909vw, 0.875rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+  color: var(--baby-blue);
+  list-style: none;
+  text-decoration: none;
+}
+
+.brand-bold {
+  font-weight: 700;
+}
+
+.brand-md {
+  font-weight: 500;
+}
+
+.size-xl {
+  font-size: var(--size-xl);
+}
+
+.size-lg {
+  font-size: var(--size-lg);
+}
+
+.size-md {
+  font-size: var(--size-md);
+}
+
+.size-sm {
+  font-size: var(--size-sm);
+}
+
+.size-xs {
+  font-size: var(--size-xs);
+}
